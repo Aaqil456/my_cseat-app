@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".SelectStory">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/ovalstyle"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:backgroundTint="#74C9F6"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="128dp"
+        android:text="SELECT STORY"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="603dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButtonStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/goshop_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Going to the Store"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/gorestaurant_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Going to the Restaurant"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTakeTurnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/taketurn_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewTakeTurn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taking Turns"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonHandleBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/handlingbuying_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewHandleBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Handling Buying"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPottyy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/potty_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewPotty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potty Training"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/date_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play date"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

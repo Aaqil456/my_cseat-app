@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cseatgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CseatGame">
+        <activity android:name=".StoreShortStory2"></activity>
+        <activity android:name=".SpellingCorrect" />
+        <activity android:name=".StoreShortStory1" />
+        <activity android:name=".SelectStory" />
+        <activity android:name=".MemoryAnswerWrong" />
+        <activity android:name=".MemoryAnswerCorrect" />
+        <activity android:name=".Memory_Play_1" />
+        <activity android:name=".Memory_Memo_3" />
+        <activity android:name=".Memory_Memo_2" />
+        <activity android:name=".Memory_Memo_1" />
+        <activity android:name=".MemoryMain" />
+        <activity android:name=".Memory" />
+        <activity android:name=".SpellingLvl1" />
+        <activity android:name=".SpellingAllLevels" />
+        <activity android:name=".MathAnswerWrong" />
+        <activity android:name=".MathAnswerCorrect" />
+        <activity android:name=".Lvl_1_math" />
+        <activity android:name=".MathAllLevels" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

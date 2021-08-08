@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".MemoryMain">
+
+    <Button
+        android:id="@+id/buttonMemorize"
+        android:layout_width="289dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/ovalstyle"
+        android:text="memorize"
+        android:textSize="36dp"
+        app:backgroundTint="#DB4437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="289dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/ovalstyle"
+        android:text="Play"
+        android:textSize="36dp"
+        app:backgroundTint="#431EE9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="289dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/ovalstyle"
+        android:text="Back"
+        android:textSize="36dp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

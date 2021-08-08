@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonMath"
+        android:layout_width="148dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/eclipsestyle"
+        android:text=" Math"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#74EFE1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStory"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDict"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/buttonDict"
+        android:layout_width="180dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/eclipsestyle"
+        android:text="Spelling"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#B3DC71"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMemory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/buttonMemory"
+        android:layout_width="162dp"
+        android:layout_height="133dp"
+        android:background="@drawable/eclipsestyle"
+        android:text="Memory"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#D590E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <Button
+        android:id="@+id/buttonStory"
+        android:layout_width="130dp"
+        android:layout_height="116dp"
+        android:background="@drawable/eclipsestyle"
+        android:text="Story"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#EF77A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMath"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
